@@ -15,6 +15,10 @@ export default defineNuxtConfig({
       autoprefixer: {},
     },
   },
+  target: 'static', // Configura Nuxt para generar archivos estáticos
+  router: {
+    base: 'www.Para-ti.com' // Reemplaza <nombre-del-repositorio> con el nombre de tu repositorio
+  },
 
   compatibilityDate: "2024-10-15"
 });
