@@ -1,7 +1,7 @@
 export default defineNuxtConfig({
   // Aquí puedes agregar tus configuraciones
   css: [
-    "/Para-ti/assets/tailwind.css", // Ruta a tu archivo CSS principal
+    "/assets/tailwind.css", // Ruta a tu archivo CSS principal
   ],
 
   // Otras configuraciones de Nuxt
