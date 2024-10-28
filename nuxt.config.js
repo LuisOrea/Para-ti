@@ -1,25 +1,16 @@
 export default defineNuxtConfig({
-  // Aquí puedes agregar tus configuraciones
   css: [
     "/assets/tailwind.css", // Ruta a tu archivo CSS principal
   ],
-
-  // Otras configuraciones de Nuxt
   buildModules: [
-    "@nuxt/postcss8",
-    // Aquí puedes agregar módulos de construcción si es necesario
+    "@nuxt/postcss8", // Módulo para PostCSS
   ],
   postcss: {
     plugins: {
-      tailwindcss: {},
-      autoprefixer: {},
+      tailwindcss: {}, // Configuración para Tailwind CSS
+      autoprefixer: {}, // Autoprefixer para manejar prefijos de navegador
     },
   },
   target: 'static', // Configura Nuxt para generar archivos estáticos
-
-  router: {
-    base: '/Para-ti/', // Asegúrate de que la barra final esté incluida
-  },
-
-  compatibilityDate: "2024-10-15"
+  compatibilityDate: "2024-10-15" // Fecha de compatibilidad
 });
