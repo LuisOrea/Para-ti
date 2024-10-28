@@ -17,5 +17,9 @@ export default defineNuxtConfig({
   },
   target: 'static', // Configura Nuxt para generar archivos estáticos
 
+  router: {
+    base: '/Para-ti/', // Asegúrate de que la barra final esté incluida
+  },
+
   compatibilityDate: "2024-10-15"
 });
