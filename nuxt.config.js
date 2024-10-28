@@ -12,5 +12,8 @@ export default defineNuxtConfig({
     },
   },
   target: 'static', // Configura Nuxt para generar archivos estáticos
-  compatibilityDate: "2024-10-15" // Fecha de compatibilidad
+  compatibilityDate: "2024-10-15", // Fecha de compatibilidad
+  router: {
+    base: '/Para-ti/', // Asegúrate de que la barra final esté incluida
+  },
 });
