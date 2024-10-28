@@ -21,7 +21,7 @@ const lastPage = ref(false)
 
 <style scoped>
 .fondo {
-  background-image: url(/public/Fondos/love-3061483_1280.jpg);
+  background-image: url(/Para-ti/public/Fondos/love-3061483_1280.jpg);
   background-repeat: no-repeat; /* Cambié a no-repeat para evitar el patrón de repetición */
   width: 100vw;
   height: 100vh;
